@@ -1,0 +1,340 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BITC -  BTEC Information Technology Club</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <!-- Google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="/assets/css/style-starter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- header -->
+<div th:replace="~{header :: header}">...</div>
+<!-- //header -->
+
+<!-- banner section -->
+<section id="home" class="w3l-banner">
+    <div class="banner-content">
+        <div class="container py-4">
+            <div class="row align-items-center pt-sm-7 pt-4 section1">
+                <div class="col-md-6">
+                    <h3 class="">BITC - Fix Bug Overnight<span class="d-block">BTEC INFORMATION TECHNOLOGY CLUB</span>
+                    </h3>
+                    <p class="banner-sub">BITC is an Information Technology club affiliated with BTEC FPT Da Nang International College. This club focuses on creating an information technology-intensive learning and practice environment for students, helping them develop professional skills and become familiar with the latest technologies in this field.</p>
+                    <div class="d-flex align-items-center buttons-banner">
+                        <a th:href="@{https://www.facebook.com/bitc.club}" class="btn btn-style mt-lg-5 mt-4">JOIN WITH US</a>
+                    </div>
+                </div>
+                <div class="col-md-6 right-banner-2 text-end position-relative mt-md-0 mt-5">
+                    <div class="mx-auto">
+                        <img src="assets/images/banner.png" class="img-fluid position-relative" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //banner section -->
+
+<!-- home 4grids block -->
+<section class="services-w3l-block py-md-5" id="features">
+    <div class="container py-md-5 py-4 container_adv">
+        <div class="row">
+            <div class="col-md-12 col-lg-4 d-flex align-items-stretch">
+                <div class="icon-box icon-box-clr">
+                    <div class="icon"><i class="fas fa-user-friends"></i></div>
+                    <h4 class="title"><a>Followers</a></h4>
+                    <p class="adv_value">2100+</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 d-flex align-items-stretch mt-md-0 mt-4">
+                <div class="icon-box icon-box-clr item-center" >
+                    <div class="icon"><i class="fas fa-book-reader"></i></div>
+                    <h4 class="title"><a>Training courses</a></h4>
+                    <p class="adv_value">10+</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 d-flex align-items-stretch mt-lg-0 mt-4">
+                <div class="icon-box icon-box-clr">
+                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <h4 class="title"><a>Likes</a></h4>
+                    <p class="adv_value">1400+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- home 4grids block -->
+
+<!-- home image with content block -->
+<section class="w3l-servicesblock pt-lg-20 pt-4 " id="about">
+    <div class="container pb-4">
+        <div class="row pb-xl-5" style="justify-content: space-between">
+            <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
+                <div class="div-banner">
+                    <img src="assets/images/banner2.png" alt="" class="img-banner radius-image">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mt-lg-0 mt-5 pt-lg-0 pt-5 position-relative section-about">
+                <img src="assets/images/decoration1.png" class="decoration1">
+
+                <h3 class="title-style--section">ABOUT US</h3>
+                <h3 class="des-style">BITC - BTEC INFORMATION TECHNOLOGY CLUB</h3>
+                <p class="mt-4 des-para">BITC Information Technology Club was born on April 26, 2022. It is a pioneering Information Technology club founded by students who love technology at British College BTEC FPT Da Nang. This is considered a development place for young people with the same passion in the field of software technology. With enthusiasm from the management team, it is promised that this will become a place to develop professional capacity for members.</p>
+                <img src="assets/images/decoration2.png" class="decoration2">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //home image with content block -->
+
+<!-- why choose block -->
+<section class="w3l-service-1 py-5" style="padding-top: 0 !important; padding-bottom: 5rem !important;">
+    <div class="container py-md-5 py-4 position-relative">
+        <img src="assets/images/decoration1.png" class="decoration1" style="top: -56px">
+        <img src="assets/images/decoration1.png" class="decoration1" style="top: -56px; left: 0">
+        <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:600px;">
+            <p class="text-uppercase mgt46" style="color: #00e091">Why Choose Us</p>
+            <h3 class="title-style">Experienced Members And Dynamic Environment</h3>
+        </div>
+        <div class="row content23-col-2 text-center">
+            <div class="col-md-6">
+                <div class="content23-grid content23-grid1">
+                    <h4><a th:href="@{/about}">Expert Members</a></h4>
+                </div>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-4">
+                <div class="content23-grid content23-grid2">
+                    <h4><a th:href="@{/about}">Dynamic Environment</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //why choose block -->
+
+
+
+<!-- testimonials block -->
+<section class="w3l-index4 py-5" id="testimonials">
+    <div class="container py-md-5 py-4">
+
+        <div class="content-slider text-center">
+            <div class="clients-slider">
+                <div class="mask">
+                    <ul>
+                        <li class="anim1">
+                            <img src="assets/images/testi1.jpg" class="img-fluid--slide  rounded-circle"
+                                 alt="client image" />
+                            <blockquote class="quote"><q>BITC has been a game-changer for me! The hands-on workshops and coding challenges helped me gain real-world skills, and the mentors are always there to guide us. It's a great place to learn and grow.
+                            </q> </blockquote>
+                            <div class="source">- Viet Phuc</div>
+                        </li>
+
+                        <li class="anim2">
+                            <img src="assets/images/testi2.jpg" class="img-fluid--slide rounded-circle"
+                                 alt="client image" />
+                            <blockquote class="quote"><q>Joining BITC was the best decision I made in college. I learned so much about programming, and the friendly environment made it easy to connect with others who share the same passion for technology.
+                            </q> </blockquote>
+                            <div class="source">- Thi Yen</div>
+                        </li>
+                        <li class="anim3">
+                            <img src="assets/images/testi3.jpg" class="img-fluid--slide rounded-circle "
+                                 alt="client image" />
+                            <blockquote class="quote"><q>I love how BITC encourages innovation and teamwork. The projects we work on are practical and fun, and I've gained confidence in my coding abilities. Highly recommend this club for tech enthusiasts!.
+                            </q> </blockquote>
+                            <div class="source">- Nhat Linh</div>
+                        </li>
+                        <li class="anim4">
+                            <img src="assets/images/testi1.jpg" class="img-fluid--slide rounded-circle"
+                                 alt="client image" />
+                            <blockquote class="quote"><q>BITC has been a game-changer for me! The hands-on workshops and coding challenges helped me gain real-world skills, and the mentors are always there to guide us. It's a great place to learn and grow.
+                            </q> </blockquote>
+                            <div class="source">- Viet Phuc</div>
+                        </li>
+                        <li class="anim5">
+                            <img src="assets/images/testi2.jpg" class="img-fluid--slide rounded-circle"
+                                 alt="client image" />
+                            <blockquote class="quote"><q>Joining BITC was the best decision I made in college. I learned so much about programming, and the friendly environment made it easy to connect with others who share the same passion for technology.
+                            </q> </blockquote>
+                            <div class="source">- Thi Yen</div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //testimonials block -->
+
+<!-- leaders section -->
+<div class="w3l-grids-block-5 home-course-bg py-16" id="leader">
+    <div class="container py-md-5 py-4 position-relative">
+        <img src="assets/images/decoration1.png" class="decoration1" style="top: -56px">
+        <img src="assets/images/decoration1.png" class="decoration1" style="top: -56px; left: 0">
+        <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:900px;">
+            <p class="text-uppercase mgt46" style="color: #00e091" >MEMBER OF THE EXCUTIVE BOARD</p>
+            <h3 class="title-style">Lead member runs the BTEC Information Technology Club</h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6" style="margin-bottom: 22px">
+                <div class="coursecard-single position-relative">
+                    <div class="grids5-info position-relative">
+                        <img src="assets/images/leader1.png" alt="" class="img_leader" />
+                    </div>
+                    <div class="content-main-top">
+                        <h4 class="leader_name">Vo Van Thanh Binh</h4>
+                        <p class="leader_level">Vice President, Head of Human Resources</p>
+                        <a href="" class="leader_contact">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" style="margin-bottom: 22px">
+                <div class="coursecard-single position-relative">
+                    <div class="grids5-info position-relative">
+                        <img src="assets/images/leader2.png" alt="" class="img_leader" />
+                    </div>
+                    <div class="content-main-top">
+                        <h4 class="leader_name">Le Viet Hoang</h4>
+                        <p class="leader_level">Club President, Head of Professional Committee</p>
+                        <a href="" class="leader_contact">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" style="margin-bottom: 22px">
+                <div class="coursecard-single position-relative">
+                    <div class="grids5-info position-relative">
+                        <img src="assets/images/leader3.png" alt="" class="img_leader" />
+                    </div>
+                    <div class="content-main-top">
+                        <h4 class="leader_name">Nguyen Hoang Long</h4>
+                        <p class="leader_level">Head of Communications</p>
+                        <a href="" class="leader_contact">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- //leaders section -->
+
+<!-- tranings section -->
+<div class="w3l-grids-block-5 home-course-bg" id="training">
+    <div class="container py-md-5 py-4 position-relative">
+        <img src="assets/images/decoration1.png" class="decoration1" style="top: -56px; left: 15px">
+        <div class="row pb-xl-5" style="justify-content: space-between">
+            <div class="col-xl-6 col-lg-6 mt-lg-0  pt-lg-0  position-relative">
+                <h3 class="title-style--section" style="margin-top: 40px">TRAINING COURSE</h3>
+                <h3 class="des-style" style="  text-transform: uppercase;">BITC's training method is following two main courses</h3>
+            </div>
+        </div>
+        <img src="assets/images/icon2.png" class="icon2">
+        <img src="assets/images/icon3.png" class="icon3">
+        <img src="assets/images/icon4.png" class="icon4">
+        <img src="assets/images/groupbitc.png" class="img_groupbitc">
+
+    </div>
+
+</div>
+<!-- //trainings section -->
+
+<!-- footer block -->
+<div th:replace="~{footer :: footer}">...</div>
+<!-- //footer block -->
+
+<!-- Js scripts -->
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+</button>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<!-- //move top -->
+
+<!-- common jquery plugin -->
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<!-- //common jquery plugin -->
+
+<!-- /counter-->
+<script src="/assets/js/counter.js"></script>
+<!-- //counter-->
+
+
+
+<!-- MENU-JS -->
+<script>
+    $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+</script>
+<!-- //MENU-JS -->
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+    $(function () {
+        $('.navbar-toggler').click(function () {
+            $('body').toggleClass('noscroll');
+        })
+    });
+</script>
+<!-- //disable body scroll which navbar is in active -->
+
+<!-- bootstrap -->
+<script src="/assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap -->
+<!-- //Js scripts -->
+</body>
+
+</html>
